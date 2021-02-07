@@ -425,6 +425,10 @@
     &__item {
         flex: 0 0 50%;
         margin-bottom: .6rem;
+
+        @media only screen and (max-width: $bp-smallest) {
+            flex: 0 0 100%;
+        }
     }
 
     &__item::before {
